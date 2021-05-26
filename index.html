@@ -8,6 +8,7 @@
 <body>
     <section class="cards">
         <div class="wrapper">
+            <button class="button">Добавление</button>
             <div class="list">
                 <div class="card_wrapper">
                     <div class="card__name">Мастер и Маргарита</div>
@@ -30,5 +31,20 @@
             </div>
         </div>
     </section>
+
+    <div class="popup">
+        <div class="popup__content">
+            <img src="./images/close.svg" alt="" class="popup__close">
+            <form class="popup__form" name="new">
+                <input type="text" name="name" class="popup__input popup__input_type_name" placeholder="Название">
+                <input type="text" name="year" class="popup__input popup__input_type_year" placeholder="Год написания">
+                <input type="text" name="writer" class="popup__input popup__input_type_writer" placeholder="Писатель">
+                <input type="text" name="genre" class="popup__input popup__input_type_genre" placeholder="Жанр">
+                <button type="submit" class="button popup__button">Добавить</button>
+            </form>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
